@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+ 
+</head>
+<body style = "background-color:SeaShell">
+ <link rel="stylesheet" type="text/css" href="css\quiz.css">
+<p>
+  
+    <h3>EARTH QUIZ</h3>
+   
+    <form name="Quiz">
+    Name<input type="text" name="name"><br>
+    Surname <input type="text" name="surname"><br>
+    <h4>What countries have the biggest inhabitant?</h4>
+    <input type="radio" name="answer1" value="Answer13">USA and India<br>
+    <input type="radio" name="answer1" value="Answer12">Russia and USA<br>
+       <input type="radio" name="answer1" value="Answer11">India and China<br>
+    <h4>The smallest country is:</h4>
+    <input type="radio" name="answer2" value="Answer23">Tuvalu<br>
+    <input type="radio" name="answer2" value="Answer21">Vatican<br>
+    <input type="radio" name="answer2" value="Answer22">Monaco<br> 
+    <h4> The biggest ocean is:</h4>
+    <input type="radio" name="answer3" value="Answer32">Atlantic Ocean<br>
+    <input type="radio" name="answer3" value="Answer33">Indian Ocean<br>
+    <input type="radio" name="answer3" value="Answer31">Pacific Ocean<br>
+     <h4>Qiuz rating (beetwen 1 and 10)</h4>
+    <input type="number" name="answer34" min="1" max="10" id="numb"><br>
+<button type="button" onclick="validateQuestions()">Submit</button><br>
+</form> 
+<button type="button" onclick="Checkresults()">Your points</button>
+  <script src="js\quiz.js"></script>
+ </body>
+
+
+ 
